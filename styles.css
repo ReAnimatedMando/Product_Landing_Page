@@ -3,8 +3,8 @@
 }
 
 img {
-    border-radius: 50%;
-    max-width: 200px;
+    border-radius: 12px;
+    max-width: 640px;
 }
 
 nav {
@@ -19,8 +19,7 @@ nav {
 
 .nav-list {
     display: flex;
-    margin-right: 2rem;
-    color: black;
+    list-style-type: none;
 }
 
 @media (max-width: 28.75em) {
@@ -34,12 +33,9 @@ nav {
 
 .nav-list a {
     display: block;
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 2rem;
-}
-
-.nav-list a:hover {
-    color: gray;
+    color: black;
 }
 
 nav a {
