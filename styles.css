@@ -6,3 +6,47 @@ img {
     border-radius: 50%;
     max-width: 200px;
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    color: black;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+        justify-content: center;
+    }
+    .nav-list {
+        margin: 0.1rem;
+    }
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+    color: gray;
+}
+
+nav a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
