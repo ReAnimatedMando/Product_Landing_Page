@@ -64,7 +64,14 @@ nav a:hover {
 }
 
 #reel {
-    margin-top: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#reel > iframe {
+    max-width: 560px;
+    width: 100%;
 }
 
 .btn {
