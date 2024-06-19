@@ -50,8 +50,16 @@ nav a:hover {
 
 #services {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 100px;
+    padding: 0 0 0 260px;
+}
+
+#services img {
+    display: flex;
+    float: left;
+    padding: 24px;
 }
 
 #reel {
