@@ -53,13 +53,14 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
-    padding: 0 0 0 260px;
+    padding: 0 0 0 200px;
 }
 
 #services img {
     display: flex;
     float: left;
     padding: 24px;
+    border-radius: 60px;
 }
 
 #reel {
